@@ -13,6 +13,26 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '251626134579737');
+        fbq('track', 'PageView'); 
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=251626134579737&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -203,7 +223,8 @@
                                 </h3>
                             </div>
                             <p class="about-staking-item__text" data-aos="fade-right">
-                                When using the PoS algorithm, the following principle applies: the larger the amount stored by the user, the more blocks it can generate.
+                                When using the PoS algorithm, the following principle applies: the larger the amount
+                                stored by the user, the more blocks it can generate.
                             </p>
                         </div>
                     </div>
@@ -242,10 +263,10 @@
 
                     </button>
                     <h3 class="contacts__title">
-                        Свяжись с нами
+                        Contact us
                     </h3>
                     <p class="contacts__text">
-                        Выбери и кликни на любую удобную для тебя социальную сеть
+                        Choose and click on any social network you are comfortable with
                     </p>
                     <ul class="contacts__list">
                         <li class="contacts__list-item">
